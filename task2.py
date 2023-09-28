@@ -48,3 +48,9 @@
 # print(char)
 
 
+
+# exersice>>6
+
+# with open('other.txt', 'r') as firstfile, open('another.txt', 'w') as secondfile:
+#     for line in firstfile:
+#         secondfile.write(line)
