@@ -1,3 +1,2 @@
 first file handling in python
 second string 56rdx#$%
-third string 567dss
