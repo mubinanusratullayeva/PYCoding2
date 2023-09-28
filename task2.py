@@ -93,3 +93,22 @@ import os
 #
 # # Example usage:
 # delete_file('onlyFur_del.txt')
+
+
+
+
+
+
+
+# exersice>>10
+# def search_string(bar):
+#     x = 0
+#     y = []
+#
+#     with open('other.txt', 'r') as ree:
+#         for line in ree:
+#             x += 1
+#             if bar in line:
+#                 y.append((x, line.rstrip()))
+#     return y
+# print(search_string('h'))
