@@ -70,8 +70,26 @@ import os
 
 
 # exersice>>8
-#
+
 # def renaming_func(old_name, new_name):
 #     os.rename(old_name, new_name)
 #
 # renaming_func('old.txt', 'new.txt')
+
+
+
+
+
+# exersice>>9
+
+# def delete_file(file_path):
+#     try:
+#         os.remove(file_path)
+#         print(f"File '{file_path}' deleted successfully.")
+#     except FileNotFoundError:
+#         print(f"File '{file_path}' not found.")
+#     except PermissionError:
+#         print(f"Permission denied: Unable to delete file '{file_path}'.")
+#
+# # Example usage:
+# delete_file('onlyFur_del.txt')
