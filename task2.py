@@ -1,3 +1,5 @@
+import os
+
 # exersice>>1
 
 # with open('my_file.txt', 'w') as f:
@@ -63,3 +65,13 @@
 #     with open('my_file.txt', 'a') as file:
 #         file.write(smth)
 # existing_func('HELLO WORLD')
+
+
+
+
+# exersice>>8
+#
+# def renaming_func(old_name, new_name):
+#     os.rename(old_name, new_name)
+#
+# renaming_func('old.txt', 'new.txt')
