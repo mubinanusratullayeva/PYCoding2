@@ -11,3 +11,11 @@
 #     file_contents = f.read()
 #
 # print(file_contents)
+
+
+# exersice>>3
+
+with open('texty.txt', 'r') as file:
+    line_count = sum(1 for line in file)
+
+print(line_count)
