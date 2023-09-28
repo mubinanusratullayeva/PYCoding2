@@ -24,7 +24,7 @@
 
 
 
-# exersice>>3
+# exersice>>4
 
 # def count_words():
 #     with open('stringy.txt', 'r') as file:
@@ -33,3 +33,18 @@
 #         return len(words)
 #
 # print(count_words())
+
+
+
+
+# exersice>>5
+
+# file_name = "any_file.txt"
+#
+# with open(file_name, 'r') as foo:
+#     buzz = foo.read()
+#     char = len(buzz)
+#
+# print(char)
+
+
