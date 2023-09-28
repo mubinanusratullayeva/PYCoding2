@@ -54,3 +54,12 @@
 # with open('other.txt', 'r') as firstfile, open('another.txt', 'w') as secondfile:
 #     for line in firstfile:
 #         secondfile.write(line)
+
+
+
+# exersice>>7
+
+# def existing_func(smth):
+#     with open('my_file.txt', 'a') as file:
+#         file.write(smth)
+# existing_func('HELLO WORLD')
