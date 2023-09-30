@@ -1,0 +1,3 @@
+first file handling in python
+second string 56rdx#$%
+HELLO WORLD
