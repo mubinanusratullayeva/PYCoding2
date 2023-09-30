@@ -98,8 +98,6 @@ import os
 
 
 
-
-
 # exersice>>10
 # def search_string(bar):
 #     x = 0
