@@ -38,3 +38,44 @@
 
 
 
+
+
+
+# task-2
+
+# name = input('What\'s your name?: ')
+# penpal = input('Enter the nationality: ')
+#
+# class Nationalities:
+#
+#     def __init__(self, name):
+#         self.name = name.title()
+#         self.hello_nation = {
+#         'uzbek': f'Assalomu Aleykum, {self.name} keling do\'stlashamiz',
+#         'russian': f'Здравствуйте, {self.name} давай подружимся',
+#         'arabic':f'مرحبا،{self.name} دعونا نكون أصدقاء ',
+#         'english': f'Hello, {self.name} let\'s be friends.',
+#         'turkish': f'Merhaba {self.name} arkadaş olalım',
+#         'italian': f'Ciao, {self.name} diventiamo amici',
+#         'french': f'Bonjour, {self.name} soyons amis',
+#         'korean': f'안녕, {self.name} 친구하자',
+#         'chinese': f'你好，{self.name} 我們交朋友吧'
+#         }
+#
+#
+# class Response:
+#     def __init__(self, name, penpal, dict):
+#         self.name = name
+#         self.penpal = penpal
+#         self.dict = dict
+#
+#
+#     def __res__(self):
+#         if self.penpal in self.dict.keys():
+#             return self.dict[self.penpal]
+#         else:
+#             return f'Not found a person of {self.penpal} nation'
+#
+# nat = Nationalities(name)
+# res = Response(name, penpal, nat.hello_nation)
+# print(res.__res__())
