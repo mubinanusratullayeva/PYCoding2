@@ -25,6 +25,11 @@ print(MyClass.hello_class())
 
 
 
+
+
+
+
+
 class Animals:
     favo_anim = []
 
@@ -48,6 +53,10 @@ anim = Animals('panda', 'tipratikan')
 print(anim.anim_instance())
 print(Animals.anim_static('qo\'ng\'ir ayiq', 'oq ayiq'))
 print(Animals.anim_class('yo\'lbars'))
+
+
+
+
 
 
 
